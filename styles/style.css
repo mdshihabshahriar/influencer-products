@@ -65,8 +65,21 @@
     border-radius: 20px;
     font-weight: 700;
     font-size: 1rem;
+    cursor: pointer;
 }
 .banner-img{
     /* width: 100%; */
     margin-top: 80px;
+}
+
+/* company image style */
+.company{
+    /* max-width: 1110px; */
+    justify-content: center;
+    /* border: 0.5px solid gray; */
+    gap: 100px;
+    margin: 0 auto;
+}
+.company img{
+    padding: 41px 3px 41px;
 }
