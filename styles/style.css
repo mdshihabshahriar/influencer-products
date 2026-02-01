@@ -21,7 +21,7 @@
 }
 .brand{
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     color: #3A3A3A;
 }
 .nav-item{
@@ -82,4 +82,86 @@
 }
 .company img{
     padding: 41px 3px 41px;
+}
+
+/* feature related style */
+.features{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1100px;
+    /* padding: 0 40px;     */
+    margin: 0 auto;
+    gap: 30px;
+    justify-items: start;
+}
+.main-title{
+    font-weight: 500;
+    font-size: 1.75rem;
+    color: #3A3A3A;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.items{
+    background: #fff;
+    margin: 0 auto;
+    width: 329px;
+    /* height: 476px; */
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+.item-img{
+    width: 100%;
+    /* height: 200px; */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.item-title{
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #3A3A3A;
+}
+.price{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #3A3A3A;
+}
+.rating{
+    font-weight: 600;
+    color: #3A3A3A;
+    font-size: 0.8rem;
+}
+.description{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #3A3A3A;
+    line-height: 1.4;
+}
+.see-more{
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.feature-product{
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.feature-content{
+    gap: 16px;
+}
+.feature-title{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.feature-description{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #6C6C6C;
 }
